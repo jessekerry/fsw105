@@ -37,3 +37,5 @@ function jack (info){
     }
 } 
 jack(val)
+
+jack(bear)

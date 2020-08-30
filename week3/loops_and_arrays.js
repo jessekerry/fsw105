@@ -53,7 +53,9 @@ function nana (attendees){
         }
     }
 }
-console.log( (attendees))
+console.log( bella (attendees))
+console.log( odin (attendees))
+console.log( nana (attendees))
 
 for (i = 0; i < 101; i++){
     if([i] % 2 != 0){

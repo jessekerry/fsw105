@@ -1,11 +1,14 @@
-var shopper = {
+let shopper = {
     firstName: "odin",
     lastName: "hampton",
-    gender: "male",
-    age: 40,
-    isAlone: false,
-    cart: ["candy", "iceCream", "milk"]
-    fullName : function(){
+    age : 20,
+    isAlive: true,
+    wholeName: function() {
         return this.firstName + " " + this.lastName;
-    }
+    },
+    cart: ["milk", "eggs", "juice"]
 };
+
+
+console.log(shopper)
+console.log(shopper.wholeName())
