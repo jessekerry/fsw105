@@ -36,7 +36,7 @@ if(person.age >= 18){
 
 //console.log((person.age >= 18) ?`${person.fristName} is allowed to go to the movies`:`${person.fristName} is not allowed to go to the movies`);
 
-if(person.fristName.charAt(0) ===("B" || "b") && person.age >= 18){
+if(person.fristName.charAt(0) ===("B" || "b")){
     console.log(`${person.fristName} is allowed to go to the movie`)
 } 
 
@@ -64,7 +64,7 @@ if ((1 <= 2) && 2 === 4){
 
 //console.log(((1 >= 2) && 2 === 4) ? "yes":"no");
 
-if(typeof dog === "string"){
+if(typeof "dog" === "string"){
     console.log("is a string")
 }
 
@@ -80,7 +80,7 @@ if(typeof person ==='defined'){
     console.log("it is defined")
 }
 
-//console.log((typeof person === "defind")?"it is defind":"it is not defind)
+//console.log((typeof person === "defined")?"it is defined":"it is not defined)
 
 var s = 13;
 if(s>= 12){
