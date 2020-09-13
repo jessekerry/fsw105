@@ -45,7 +45,7 @@ if(person.fristName.charAt(0) ===("B" || "b")){
 if(person.fristName.charAt(0) ===( "B" || "b") && person.age >=18){
     console.log(`${person.fristName} is allowed to go to the movie`)
 } else {
-    console.log(`${person.fristName} first initial is not B or is not old enough to attend the movie`)
+    console.log(`${person.fristName} is not allowed to go to the movie`)
 }
 
 //console.log((person.fristName.charAt(0) === ("B" || "b") && person.age >= 18) ? "is allowed to go to the movie" : "first initial is not b or is not old enough to go to the movie");

@@ -21,7 +21,7 @@ var attendees = [
         gender: "female"
     }
 ]
-function bella (attendees){
+function if18 (attendees){
     for (i = 0; i < attendees.length; i++){
         if (attendees[i].age >= 18){
             console.log("is old enough")
@@ -31,7 +31,7 @@ function bella (attendees){
     }
 }
 
-function odin (attendees){
+function if18PlusName (attendees){
     for (i = 0; i < attendees.length; i++){
         if (attendees[i].age >= 18){
             console.log(`${attendees[i].name} is old enough to see Mad Max`)
@@ -40,7 +40,7 @@ function odin (attendees){
         }   
     }
 }
-function nana (attendees){
+function gender (attendees){
     for (i = 0; i < attendees.length; i++){
         if (attendees[i].gender === "male" && attendees[i].age >= 18){
             console.log (`${attendees[i].name} is old enough to see Mad Max let him in`)
@@ -53,15 +53,15 @@ function nana (attendees){
         }
     }
 }
-console.log( bella (attendees))
-console.log( odin (attendees))
-console.log( nana (attendees))
+console.log( if18 (attendees))
+console.log( if18PlusName (attendees))
+console.log( gender (attendees))
 
 for (i = 0; i < 101; i++){
     if([i] % 2 != 0){
-        console.log([i] + "odd")
+        console.log([i] + " odd ")
     } else {
-        console.log([i] + "even")
+        console.log([i] + " even ")
     }
 }
 
