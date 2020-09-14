@@ -1,8 +1,7 @@
 function sum (num1, num2){
     return(num1 + num2)
 }
-var outcome = sum (58,23)
-console.log(outcome)
+console.log(sum(8, 9))
 
 
 function highest (num1, num2, num3){
