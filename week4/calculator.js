@@ -1,7 +1,7 @@
 const readlineSync = require('readline-sync');
 
 
-function addition (){
+function add (){
     let num1 = readlineSync.question('please enter your first number? ');
     let num2 = readlineSync.question('please enter your second number? '); 
     console.log("the result is" + " " +(Number(num1) + Number(num2)))
@@ -35,7 +35,7 @@ function divide(){
 
 
 
-function census() {
+function result() {
     let sum = readlineSync.question('please enter the operation to perform: add, sub, mul, div:')
     if (sum === 'add'){
         add() 
@@ -51,8 +51,9 @@ function census() {
 }
 
 
+result()
+result()
+result()
+result()
+result()
 
-census()
-census()
-census()
-census()
