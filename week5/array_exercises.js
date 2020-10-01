@@ -72,9 +72,11 @@
         console.log(" B 1 ", result)
     
     
+    }
     
-    
-    
+    {
+        const arr = [2, 5, 100];
+
         const result = arr.map(function(num){
             return     num.toString()
         })
